@@ -7,10 +7,13 @@ import Skill from './Skill'
 const Main = () => {
   return (
     <div>
+        <p>title</p>
         <AboutMe/>
+        <p>Project</p>
         <Project/>
-        <Project/>
+        <p>Skills</p>
         <Skill/>
+        <p>contact</p>
         <Contact/>
     </div>
   )

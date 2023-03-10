@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Skill = () => {
+    const skills = "skill"
   return (
-    <div>Skills</div>
+    <div className='skill_content'>
+        {skills}
+    </div>
   )
 }
 

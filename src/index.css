@@ -19,6 +19,11 @@ ul {
   list-style: none;
 }
 
+p {
+  text-align: center;
+}
+
+/*헤더*/
 .header_nav>ul {
   display: flex;
   flex-direction: row;
@@ -41,9 +46,18 @@ a:hover{
   color: white;
 }
 
-.AboutMe_basic_info_wrapper {
+/*소개*/
+.AboutMe_content>div {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  
+  flex-wrap: wrap;
+  max-width: 60rem;
+  justify-content: center;
 }
+.AboutMe_basic_info_wrapper>div {
+  width: 20rem;
+}
+
+/*프로젝트*/
+/*스킬*/
+/*컨텍*/
+/*푸터*/
