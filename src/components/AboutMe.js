@@ -3,6 +3,7 @@ import aboutMe from '../asset/json/aboutMe.json'
 const AboutMe = () => {
   return (
     <div className='AboutMe_content'>
+      <p>title</p>
       <div>
         <span>안녕하세요.신입 개발자 {aboutMe.name}입니다.</span>
       </div>
